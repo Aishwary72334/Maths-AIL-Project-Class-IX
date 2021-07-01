@@ -1,0 +1,42 @@
+.slider-section{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: auto;
+    width: 100vw;
+}
+
+
+.slider-heading{
+    text-align: center;
+    margin: 2%;
+    font-size:xxx-large;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.item{
+    transition: 0.5s ease-in-out;
+}
+
+.item:hover{
+        filter: brightness(70%);
+}
+
+.slider-footer{
+    height: 10%;
+    width: 100%;
+}
+
+.container-fluid{
+    width: 96% !important;
+    margin-bottom: 20px;
+}
+
+@media (max-width:1722px) {
+
+    .slider-section{
+        height: auto;
+        width: 100vw;
+    }
+    
+}

@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+
+/* Flip Book Text */
+
+@media (max-width:768px) {
+
+    .Flip-Book-Text{
+  
+      align-items: center;
+      text-align: center;
+    
+    }
+    
+}
+  
+  /* Flip-Book Css */
+  
+.PDF{
+    width: 2500px;
+    height: 400px;
+}
+  
+.Flip-Book{
+    width: 100%;
+    height: 100%;
+}
+  
+@media (max-width: 1000px) {
+
+    .PDF{
+      width: 90%;
+      height: 500px;
+    }
+  
+}  
+
+@media (max-width: 368px) {
+
+    .PDF{
+      width: 90%;
+      height: 500px;
+    }
+  
+}  
